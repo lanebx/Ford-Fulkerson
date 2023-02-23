@@ -30,13 +30,13 @@ void affichage(int* c[], int* f[], int n)
 /* s : sommet source                                */
 /* t : sommet destination                           */
 /* visite : tableau permettant de marquer les       */
-/* sommets visites				                          */
+/* sommets visites				    */
 /****************************************************/
-/* Sorties : 					                              */
-/* - ch : chaîne augmentante de s à t        	      */
+/* Sorties : 					    */
+/* - ch : chaîne augmentante de s à t        	    */
 /* (s'il en existe)                                 */
-/* - La fonction renvoie vrai si une chaîne 	      */
-/* augmentante a été trouvée et faux sinon	        */
+/* - La fonction renvoie vrai si une chaîne         */
+/* augmentante a été trouvée et faux sinon.         */
 /****************************************************/
 bool chaineaugmentante(int* c[], int* f[], int n, int ch[], int s, int t, bool visite[]) {
 
